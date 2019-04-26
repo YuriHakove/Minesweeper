@@ -1,2 +1,7 @@
-# Minesweeper
-depend on Unity
+# 扫雷（Minesweeper)
+##说明
+使用Unity开发完成
+##玩法
+1.设置正方形雷区边长
+2.鼠标左键单击选择块儿
+3.鼠标右键对雷进行标注
