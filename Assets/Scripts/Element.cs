@@ -13,7 +13,7 @@ public class Element : MonoBehaviour
     public bool mine;
     public Sprite[] emptyTextures;
     public Sprite mineTexture;
-    SpriteRenderer SpriteRenderer;
+    public SpriteRenderer SpriteRenderer;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +24,7 @@ public class Element : MonoBehaviour
         Grid.elements[x, y] = this;
         // LoadTexture(1);
     }
+
     void Init()
     {
 
@@ -64,7 +65,12 @@ public class Element : MonoBehaviour
                 //    print("you win");
             }
         }
+        
     }
+    //  void OnMouseDrag()
+    // {
+    //     Debug.Log("Drag");
+    // }
     // void OnMouseOver()
     // {
     //      SpriteRenderer.sprite
